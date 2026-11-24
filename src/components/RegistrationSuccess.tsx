@@ -152,9 +152,23 @@ export default function RegistrationSuccess({
             </button>
           </div>
 
-          <p className="mt-8 text-center text-xs text-slate-500">
-            Please carry a valid college ID and a screenshot of this confirmation on the day of the symposium.
-          </p>
+          <div className="mt-8 rounded-2xl border border-amber-400/30 bg-amber-400/[0.07] px-5 py-5 sm:px-6">
+            <div className="flex items-start gap-3">
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-amber-400/15 text-amber-300" aria-hidden="true">
+                !
+              </span>
+              <div>
+                <p className="text-sm font-bold uppercase tracking-wider text-amber-300">
+                  Important Reminder
+                </p>
+                <p className="mt-2 text-sm leading-relaxed text-slate-200">
+                  Please bring your valid <strong className="font-semibold text-white">College ID Card</strong> and
+                  <strong className="font-semibold text-white"> Bonafide Certificate</strong> on the day of SYNALTICA 2026.
+                  Both documents are mandatory for participation.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
