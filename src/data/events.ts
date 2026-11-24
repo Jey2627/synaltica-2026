@@ -41,7 +41,7 @@ export const EVENTS: SymposiumEvent[] = [
   {
     code: 'PROMPT_BATTLE',
     name: 'PROMPT BATTLE',
-    description: 'A two-round AI image-prompting challenge featuring image recreation and concept-based image creation.',
+    description: "Put your creativity and AI skills to the test! Craft clever, creative, and effective prompts to generate the best AI-powered outputs. It's not just about using AI—it's about knowing how to command it!",
     category: 'Technical Event',
     teamSize: 2,
     logo: '/assets/logos/image copy 4.png',
